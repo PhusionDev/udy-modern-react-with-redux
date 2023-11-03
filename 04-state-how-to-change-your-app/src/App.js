@@ -1,13 +1,18 @@
+import { useState } from 'react';
+
 import AnimalShow from './AnimalShow';
 
 function App() {
+  const [count, setCount] = useState(0);
+
   const handleClick = () => {
-    console.log('Button was clicked!');
+    setCount(count + 1);
   };
 
   return (
     <div className='card'>
       <button onClick={handleClick}>Add Animal</button>
+      <div>Animal Count: {count}</div>
     </div>
   );
 }
