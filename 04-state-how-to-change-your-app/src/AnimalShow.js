@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import './AnimalShow.css';
+
 import bird from './svg/bird.svg';
 import cat from './svg/cat.svg';
 import cow from './svg/cow.svg';
@@ -33,7 +35,6 @@ function AnimalShow({ type }) {
         alt='heart'
         style={{
           width: 10 + 10 * clicks + 'px',
-          height: 10 + 10 * clicks + 'px',
         }}
       />
     </div>
