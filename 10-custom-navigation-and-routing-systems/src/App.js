@@ -6,22 +6,22 @@ function App() {
   return (
     <div>
       <div>
-        <Button></Button>
+        <Button>Click Me!</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button>Buy Now</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button>See Ads</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button>Hamburger</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button>Cheese</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button>Test 2</Button>
       </div>
     </div>
   );
