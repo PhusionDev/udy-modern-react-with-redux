@@ -27,7 +27,7 @@ function App() {
         </Button>
       </div>
       <div>
-        <Button secondary rounded>
+        <Button primary rounded>
           Test 2
         </Button>
       </div>
