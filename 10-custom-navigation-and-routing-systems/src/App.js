@@ -7,13 +7,13 @@ function App() {
   return (
     <div>
       <div>
-        <Button success rounded outline>
+        <Button success rounded outline onClick={() => console.log('click')}>
           <GoBell />
           Click Me!
         </Button>
       </div>
       <div>
-        <Button danger outline>
+        <Button danger outline onMouseEnter={() => console.log('mouse enter')}>
           <GoDownload />
           Buy Now
         </Button>
