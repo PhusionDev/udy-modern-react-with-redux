@@ -19,6 +19,13 @@ function Button({
       'border-green-500 bg-green-500 text-white': success,
       'border-red-500 bg-red-500 text-white': danger,
       'border-yellow-400 bg-yellow-400 text-white': warning,
+      'rounded-full': rounded,
+      'bg-white': outline,
+      'text-blue-500': outline && primary,
+      'text-gray-900': outline && secondary,
+      'text-green-500': outline && success,
+      'text-red-500': outline && danger,
+      'text-yellow-400': outline && warning,
     })
   );
   return <button className={classes}>{children}</button>;
